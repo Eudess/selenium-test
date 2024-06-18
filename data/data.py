@@ -3,12 +3,12 @@ import pandas as pd
 
 def remove_file(dir_csv):
     """
-    Esta é uma função que remove arquivos csv.
+    Function that removes csv files.
 
-    Argumentos:
-    parametro1: Caminho da pasta csv.
+    Arguments:
+    parameter: CSV folder path..
 
-    Retorna:
+    Returns:
     None.
     """
     files = os.listdir(dir_csv)
